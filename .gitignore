@@ -1,6 +1,6 @@
 # Logs
 
-/node_modules
+
 
 logs
 *.log
@@ -13,6 +13,12 @@ lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+
+node_modules
+dist
+dist-ssr
+*.local
 
 # Runtime data
 pids
